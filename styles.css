@@ -222,6 +222,23 @@ a:hover { text-decoration: underline; }
 }
 .card p { margin: 0; color: var(--muted); font-size: 1rem; }
 
+/* Photo grid */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+}
+
 /* Price tables */
 .price-heading {
   margin: 2.2rem 0 0.4rem;
@@ -328,6 +345,10 @@ a.contact-card:hover {
   .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; }
   .section { padding: 2.5rem 0; }
   .site-header nav a { margin-left: 0.9rem; font-size: 0.95rem; }
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
   .price-table .row {
     grid-template-columns: 1fr 1fr;
     padding: 0.85rem 1rem;
