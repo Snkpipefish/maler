@@ -6,7 +6,6 @@ Statisk nettside (HTML + CSS) publisert med GitHub Pages.
 
 - `index.html` – hele nettsiden (én side)
 - `styles.css` – design og layout
-- `bilder/` – foto (gratis stockbilder fra Pexels, fri lisens for kommersiell bruk)
 
 ## Endre innhold
 
